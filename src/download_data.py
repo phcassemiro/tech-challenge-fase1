@@ -1,7 +1,7 @@
 from pathlib import Path
 from sklearn.datasets import fetch_openml
 
-DESTINO = Path("data/raw/diabetes.csv")
+DESTINO = Path(__file__).resolve().parents[1] / "data" / "raw" / "diabetes.csv"
 
 df = fetch_openml("diabetes", version=1, as_frame=True).frame
 
