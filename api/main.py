@@ -9,7 +9,7 @@ CAMINHO_MODELO = Path(__file__).resolve().parents[1] / "models" / "modelo_diabet
 
 artefato = joblib.load(CAMINHO_MODELO)
 pipeline = artefato["pipeline"]
-limiar = artefato["limiar"]
+limiar = round(artefato["limiar"], 2)
 
 app = FastAPI(
     title="Apoio à triagem de diabetes",
