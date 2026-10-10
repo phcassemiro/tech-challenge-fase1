@@ -1,0 +1,37 @@
+{
+  "limiar": 0.34,
+  "validacao": {
+    "recall": 0.925,
+    "precisao": 0.536,
+    "f1": 0.679,
+    "acuracia": 0.696,
+    "roc_auc": 0.81,
+    "matriz_confusao": [
+      [
+        43,
+        32
+      ],
+      [
+        3,
+        37
+      ]
+    ]
+  },
+  "teste": {
+    "recall": 0.854,
+    "precisao": 0.636,
+    "f1": 0.729,
+    "acuracia": 0.776,
+    "roc_auc": 0.861,
+    "matriz_confusao": [
+      [
+        55,
+        20
+      ],
+      [
+        6,
+        35
+      ]
+    ]
+  }
+}
