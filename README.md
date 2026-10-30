@@ -4,6 +4,9 @@ Projeto da Fase 1 da pós-graduação em IA para Devs (FIAP Postech). O objetivo
 
 > **Aviso:** este projeto é uma ferramenta de **apoio à triagem**, não um diagnóstico. O resultado indica quem deve fazer um exame confirmatório, e a decisão final é sempre do médico.
 
+**Vídeo de apresentação:** https://www.youtube.com/watch?v=IFiFOobmkm8  
+**Relatório técnico (PDF):** [`reports/relatorio-tecnico.pdf`](reports/relatorio-tecnico.pdf)
+
 ## Visão geral
 
 - **Dados:** Pima Indians Diabetes, com 768 pacientes (mulheres de origem Pima, 21 anos ou mais), 8 variáveis clínicas e o rótulo `Outcome` (1 = diabetes, 0 = não). Cerca de 35% dos casos são positivos.
